@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  /*color: rgb(var(--foreground-rgb));*/
+  background: rgb(255, 255, 255);
+
+}
+
+.aaa {
+  background: rgb(255, 255, 255);
+}
+
+/* table cost. */
+.amount {
+  background: #c5d3f9;
+}
+.paperprint_or_plaet {
+  background: #f2f7ff;
+}
+.printer_or_shipping {
+  background: #e2e8fc;
+}
+.cost_or_cost_piece {
+  background: #e9f1fd;
+}
+.profit_percentage {
+  background: #52a5ff;
+}
+.sell_piece {
+  background: #7ac2ff;
+}
+.cost_or_profit {
+  background: #e9f1fd;
+}
+
+/* table rate */
+.low_price {
+  background: #f2f7ff;
+}
+.meduim_price {
+  background: #e2e8fc;
+}
+.best_price {
+  background: #e9f1fd;
+}
+.good_price {
+  background: #c5d3f9;
+}
+
